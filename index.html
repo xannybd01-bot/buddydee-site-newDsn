@@ -3,110 +3,249 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>หน้าแรก | บริษัท บัดดี้ เอ เซอร์วิส จำกัด</title>
+  <title>Buddy A Services | รับ–ส่งเอกสารและพัสดุสำหรับธุรกิจ</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<header>
-  <div class="nav-inner">
-    <div class="brand">
-      <div class="brand-mark">BA</div>
-      <div>
-        Buddy A Services<br />
-        <span class="brand-sub">บริษัท บัดดี้ เอ เซอร์วิส จำกัด</span>
-      </div>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">หน้าแรก</a></li>
-        <li><a href="services.html">บริการ</a></li>
-        <li><a href="about.html">เกี่ยวกับเรา</a></li>
-        <li><a href="contact.html">ติดต่อ</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<section class="hero">
-  <div class="hero-inner">
-    <div>
-      <div class="hero-eyebrow">บริการรับ–ส่งเอกสารและพัสดุสำหรับธุรกิจ</div>
-      <h1 class="hero-title">
-        รับ–ส่งเอกสาร จดหมาย พัสดุภัณฑ์ และสินค้าทุกชนิด
-      </h1>
-      <p class="hero-sub">
-        บริษัท บัดดี้ เอ เซอร์วิส จำกัด ให้บริการรับ–ส่งเอกสาร จดหมาย พัสดุภัณฑ์
-        และสินค้าทุกชนิด จากเขตลาดพร้าว กรุงเทพฯ ด้วยทีมงานที่มีประสบการณ์ด้านงานรับ–ส่งโดยตรง
-      </p>
-
-      <div class="hero-badges">
-        <span class="badge-pill">รับ–ส่งเอกสาร / จดหมาย</span>
-        <span class="badge-pill">รับ–ส่งพัสดุภัณฑ์และสินค้าทั่วไป</span>
-        <span class="badge-pill">เหมาะกับธุรกิจและองค์กร</span>
-      </div>
-
-      <div class="hero-actions">
-        <button class="btn-primary" onclick="location.href='contact.html'">
-          ติดต่อเพื่อใช้บริการ
-          <span>➜</span>
-        </button>
-        <button class="btn-ghost" onclick="location.href='services.html'">
-          ดูรายละเอียดบริการ
-        </button>
-      </div>
-      <div class="small-note">
-        * ข้อมูลบริการอ้างอิงจากการจดทะเบียนและลักษณะกิจการจริงของบริษัท
-      </div>
-    </div>
-
-    <aside class="hero-card">
-      <div class="hero-card-title">ข้อมูลนิติบุคคล</div>
-      <div class="hero-grid">
-        <div class="hero-stat">
-          <div class="stat-label">ชื่อบริษัท (ไทย)</div>
-          <div class="stat-value">บริษัท บัดดี้ เอ เซอร์วิส จำกัด</div>
-        </div>
-        <div class="hero-stat">
-          <div class="stat-label">ชื่อบริษัท (อังกฤษ)</div>
-          <div class="stat-value">BUDDY A SERVICES COMPANY LIMITED</div>
-        </div>
-        <div class="hero-stat">
-          <div class="stat-label">ทะเบียนนิติบุคคล</div>
-          <div class="stat-value">0105561003291</div>
-        </div>
-        <div class="hero-stat">
-          <div class="stat-label">ทุนจดทะเบียน</div>
-          <div class="stat-value">1,000,000 บาท</div>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="brand-mark">BA</div>
+        <div>
+          Buddy A Services<br>
+          <span class="brand-sub">บริษัท บัดดี้ เอ เซอร์วิส จำกัด</span>
         </div>
       </div>
-    </aside>
-  </div>
-</section>
-
-<section>
-  <div class="section-inner">
-    <div class="section-header">
-      <div class="section-kicker">ภาพรวม</div>
-      <h2 class="section-title">ผู้ช่วยงานรับ–ส่งสำหรับธุรกิจในเขตลาดพร้าว</h2>
-      <p class="section-sub">
-        เน้นให้บริการรับ–ส่งเอกสารและสิ่งของสำหรับองค์กรและผู้ประกอบการในเขตลาดพร้าวและพื้นที่ใกล้เคียง
-        เหมาะกับธุรกิจที่มีความจำเป็นต้องส่งเอกสารหรือของใช้ต่อเนื่องเป็นประจำ
-      </p>
+      <nav>
+        <ul>
+          <li><a href="#hero">หน้าแรก</a></li>
+          <li><a href="#services">บริการ</a></li>
+          <li><a href="#about">เกี่ยวกับเรา</a></li>
+          <li><a href="#contact">ติดต่อ</a></li>
+        </ul>
+      </nav>
     </div>
-  </div>
-</section>
+  </header>
 
-<footer>
-  <div class="footer-inner">
-    <div>© <span id="year"></span> บริษัท บัดดี้ เอ เซอร์วิส จำกัด</div>
-    <div class="footer-meta">
-      ทะเบียนนิติบุคคล 0105561003291 · ประเภทธุรกิจ: บริการรับ–ส่งเอกสาร/สิ่งของ
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">บริการรับ–ส่งสำหรับธุรกิจ</p>
+        <h1 class="hero-title">
+          รับ–ส่งเอกสาร<br>จดหมาย พัสดุ<br>และสินค้าทุกชนิด
+        </h1>
+        <p class="hero-sub">
+          ผู้ช่วยงานรับ–ส่งสำหรับบริษัท ห้างร้าน และผู้ประกอบการ
+          เขตลาดพร้าวและพื้นที่ใกล้เคียง ดูแลงานส่งของและเอกสารให้เป็นเรื่องง่าย
+        </p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+            ติดต่อใช้บริการ
+          </button>
+          <button class="btn btn-outline" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">
+            ดูรายละเอียดบริการ
+          </button>
+        </div>
+        <p class="hero-note">จดทะเบียนในรูปแบบนิติบุคคล ถูกต้องตามกฎหมาย</p>
+      </div>
+
+      <div class="hero-panel">
+        <h2 class="panel-title">ข้อมูลบริษัท (ย่อ)</h2>
+        <ul class="info-list">
+          <li>
+            <span class="info-label">ชื่อบริษัท</span>
+            <span class="info-value">บริษัท บัดดี้ เอ เซอร์วิส จำกัด</span>
+          </li>
+          <li>
+            <span class="info-label">ประเภทธุรกิจ</span>
+            <span class="info-value">บริการรับ–ส่งเอกสาร / สิ่งของ</span>
+          </li>
+          <li>
+            <span class="info-label">ทุนจดทะเบียน</span>
+            <span class="info-value">1,000,000 บาท</span>
+          </li>
+          <li>
+            <span class="info-label">ที่ตั้ง</span>
+            <span class="info-value">
+              เขตลาดพร้าว กรุงเทพมหานคร
+            </span>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</footer>
+  </section>
 
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-kicker">บริการ</p>
+        <h2 class="section-title">บริการหลักของ Buddy A Services</h2>
+        <p class="section-sub">
+          มุ่งเน้นบริการรับ–ส่งสำหรับธุรกิจเป็นหลัก สามารถปรับรูปแบบรอบวิ่ง
+          และพื้นที่ให้บริการให้เหมาะกับลักษณะงานของลูกค้า
+        </p>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <h3 class="card-title">รับ–ส่งเอกสารและจดหมาย</h3>
+          <p class="card-text">
+            รับ–ส่งเอกสารราชการ เอกสารบริษัท สัญญา ใบแจ้งหนี้ ใบเสร็จ และเอกสารสำคัญ
+            ระหว่างสำนักงาน สาขา หรือคู่ค้า
+          </p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-title">จัดส่งพัสดุภัณฑ์ / สินค้าทั่วไป</h3>
+          <p class="card-text">
+            บริการจัดส่งพัสดุภัณฑ์และสินค้าตามที่ตกลง เช่น ของใช้สำนักงาน ชิ้นส่วนสินค้า
+            หรือพัสดุอื่น ๆ ตามขอบเขตการให้บริการ
+          </p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-title">งานรับ–ส่งประจำสำหรับองค์กร</h3>
+          <p class="card-text">
+            เหมาะสำหรับบริษัทและห้างร้านที่ต้องส่งเอกสาร/ของเป็นประจำ
+            สามารถกำหนดวัน เวลา และเส้นทางร่วมกันได้
+          </p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-title">ปรับรูปแบบตามธุรกิจของลูกค้า</h3>
+          <p class="card-text">
+            สามารถพูดคุยเพื่อออกแบบรูปแบบการรับ–ส่งให้เหมาะสม
+            เช่น วิ่งประจำทุกวัน วิ่งเป็นรอบ หรือวิ่งเฉพาะบางพื้นที่
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-kicker">เกี่ยวกับเรา</p>
+        <h2 class="section-title">ข้อมูลบริษัทและประวัติโดยย่อ</h2>
+        <p class="section-sub">
+          บริษัท บัดดี้ เอ เซอร์วิส จำกัด เกิดจากประสบการณ์ด้านงานรับ–ส่งเอกสารและสิ่งของ
+          ที่พัฒนาต่อยอดมาสู่การให้บริการสำหรับธุรกิจและองค์กรในรูปแบบนิติบุคคล
+        </p>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <div class="card flat">
+            <h3 class="card-title">ข้อมูลบริษัท</h3>
+            <ul class="info-list">
+              <li>
+                <span class="info-label">ชื่อ (ไทย)</span>
+                <span class="info-value">บริษัท บัดดี้ เอ เซอร์วิส จำกัด</span>
+              </li>
+              <li>
+                <span class="info-label">ชื่อ (อังกฤษ)</span>
+                <span class="info-value">BUDDY A SERVICES CO., LTD.</span>
+              </li>
+              <li>
+                <span class="info-label">ประเภทธุรกิจ</span>
+                <span class="info-value">กิจการรับ–ส่งเอกสาร / สิ่งของ</span>
+              </li>
+              <li>
+                <span class="info-label">สถานะ</span>
+                <span class="info-value">ดำเนินกิจการอยู่</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card flat">
+            <h3 class="card-title">พื้นที่ให้บริการหลัก</h3>
+            <p class="card-text">
+              ให้บริการจากสำนักงานในเขตลาดพร้าว
+              และสามารถให้บริการในพื้นที่ใกล้เคียงตามที่ตกลง
+            </p>
+            <div class="tag-row">
+              <span class="tag">เขตลาดพร้าว</span>
+              <span class="tag">กรุงเทพมหานคร</span>
+              <span class="tag">ธุรกิจ/องค์กร</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-kicker">ติดต่อ</p>
+        <h2 class="section-title">ติดต่อบริษัท บัดดี้ เอ เซอร์วิส จำกัด</h2>
+        <p class="section-sub">
+          สามารถแก้ไขข้อมูลด้านล่างให้ตรงกับช่องทางติดต่อปัจจุบันของบริษัท
+          ก่อนนำเว็บไซต์ไปใช้งานจริง
+        </p>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <div class="card flat">
+            <h3 class="card-title">ช่องทางติดต่อ</h3>
+            <ul class="info-list">
+              <li>
+                <span class="info-label">โทรศัพท์</span>
+                <span class="info-value">0-0000-0000</span>
+              </li>
+              <li>
+                <span class="info-label">LINE</span>
+                <span class="info-value">@buddyaservices</span>
+              </li>
+              <li>
+                <span class="info-label">อีเมล</span>
+                <span class="info-value">contact@buddydee.com</span>
+              </li>
+            </ul>
+            <p class="note-small">
+              * โปรดแก้ไขหมายเลขโทรศัพท์ LINE และอีเมลให้ถูกต้อง
+              ตามข้อมูลปัจจุบันของบริษัท
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card flat">
+            <h3 class="card-title">ที่ตั้งสำนักงาน</h3>
+            <p class="card-text">
+              97 หมู่บ้านกรองทองพาวิลเลี่ยน ซอยนาคนิวาส 48 แยก 14-4<br>
+              ถนนนาคนิวาส แขวงลาดพร้าว เขตลาดพร้าว<br>
+              กรุงเทพมหานคร 10230
+            </p>
+            <p class="note-small">
+              สามารถฝังแผนที่ Google Maps แทนข้อความส่วนนี้ได้
+              โดยใช้โค้ด iframe ของ Google Maps
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© <span id="year"></span> บริษัท บัดดี้ เอ เซอร์วิส จำกัด</span>
+      <span class="footer-meta">
+        บริการรับ–ส่งเอกสารและสิ่งของสำหรับธุรกิจ · เขตลาดพร้าว กรุงเทพมหานคร
+      </span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
